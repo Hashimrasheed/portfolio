@@ -1,0 +1,68 @@
+body{
+    
+    background: #ccc;
+}
+#header a:hover
+{
+    color: fff;
+}
+#baground-image
+{
+    background: url('bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    
+}
+.about-sec
+{
+    
+    width: 100%;
+}
+
+
+#About
+{
+    
+    background:#ccc;
+    min-height: 400px;
+}
+.navbar
+{
+    background-color: rgba(20, 20, 22, 0.71);
+}
+.profile-pic
+{
+    min-height: 100px;
+    width: 200px;
+}
+.fa
+{
+    color: #fff;
+}
+#Skills span {
+    padding: 10px 20px 10px 20px;
+}
+#Skills hr
+{
+    border-width: 2px;
+    margin-top: ;
+}
+.skill-image
+{
+    height: 200px;
+    width: 200px;
+    
+}
+#Skills
+{
+    background-color: #ccccce;
+}
+#Experience span {
+    padding: 10px 20px 10px 20px;
+}
+#Experience hr
+{
+    border-width: 2px;
+    margin-top: ;
+}
