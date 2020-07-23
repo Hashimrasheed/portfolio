@@ -6,14 +6,7 @@ body{
 {
     color: fff;
 }
-#baground-image
-{
-    background: url('bg.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    min-height: 500px;
-    
-}
+
 .about-sec
 {
     
@@ -46,7 +39,7 @@ body{
 #Skills hr
 {
     border-width: 2px;
-    margin-top: ;
+    margin-top: 06px ;
 }
 .skill-image
 {
@@ -58,11 +51,24 @@ body{
 {
     background-color: #ccccce;
 }
-#Experience span {
+#Experience span 
+{
     padding: 10px 20px 10px 20px;
 }
 #Experience hr
 {
     border-width: 2px;
-    margin-top: ;
+    margin-top: 06px ;
+}#ContactMe span
+{
+    padding: 10px 20px 10px 20px;
+}
+#ContactMe hr{
+    border-width: 2px;
+    margin-top: 06px ;
+}
+#home
+{
+   
+    width: 100%;
 }
