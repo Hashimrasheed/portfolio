@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body data-spy="scroll" data-target=".navbar">
@@ -16,21 +16,22 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Portfolio</a>
+            <a class="navbar-brand" href="#Home">Portfolio</a>
             
             <div class="collapse navbar-collapse" id="Navbar">
               <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Home">Home</a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#About">About Me</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#Skills">Skills</a>
                 </li>
+                
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Me</a>
+                    <a class="nav-link" href="#ContactMe">Contact Me</a>
                   </li>
               </ul>
             </div>         
@@ -40,67 +41,94 @@
     <div id="Home">
         <div container>
             <div class="row">
-                <div class="col">
-                    <img src="bg.jpg" alt="">
+                
+                <div data-aos="zoom-in-up "  class="col" >
+                    <h1 class="welcome-text text-center animated bounce col" data-aos="zoom-in-up" data-aos-duration="3000">Hello</h1>
+                    <h2 class="welcome-name text-center col" data-aos="zoom-in-up" data-aos-duration="3000">I'm Hashim Rasheed</h2>
+                    <h3 class="content text-center " data-aos="zoom-in-up" data-aos-duration="3000">Web Developer in UL CyberPark <br>Kozhikode</h3>
+                    
                 </div>
             </div>
 
         </div>
+
+
+
+
+
 
     </div>
     <div id="About"> 
         <div class="container">
-
-        
-            <div class="card-group bg-primary">
-                <div class="card bg-light col-12 col-md-5 col-lg-4">
-                <div class="card-body text-center">
-                    <img src="hashim.jpg" class="profile-pic" alt="">
-                </div>
-                </div>
-                <div class="card bg-light col-12 col-md-7 col-lg-8">
-                <div class="card-body ">
-                    <h3 class="text">I'm Hashim Rasheed</h3>
-                    <p class="text-muted">Full Stack Web Developer</p>
-                    <div class="container">
-                        <table class="table table-responsive">
-                            <tr>
-                                <td class="text-muted">Age</td>
-                                <td>:</td>
-                                <td>21 years old</td>
-                            </tr>
-                            <tr>
-                                <td class="text-muted">Email</td>
-                                <td>:</td>
-                                <td>hashimrasheed1999@gmail.com</td>
-                            </tr>
-                            <tr>
-                                <td class="text-muted">Phone</td>
-                                <td>:</td>
-                                <td>+91 8301941618</td>
-                            </tr>
-                            <tr>
-                                <td class="text-muted">Address</td>
-                                <td>:</td>
-                                <td>Nelliyullapoyil(H), <br>Omassery, <br>Kozhikode</td>
-                            </tr>
-                        </table>
+            <div class="">
+                <div class="card-group">
+                    <div class="card bg-light col-12 col-md-5 col-lg-4">
+                    <div class="card-body text-center">
+                        <img src="hashim.jpg" class="profile-pic rounded" alt="">
                     </div>
+                    </div>
+                    <div class="card bg-light col-12 col-md-7 col-lg-8">
+                    <div class="card-body ">
+                        <h3 class="text">I'm Hashim Rasheed</h3>
+                        <p class="text-muted">Full Stack Web Developer</p>
+                        <div class="container">
+                            <table class="table table-responsive">
+                                <tr>
+                                    <td class="text-muted">Age</td>
+                                    <td>:</td>
+                                    <td>21 years old</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-muted">Email</td>
+                                    <td>:</td>
+                                    <td>hashimrasheed1999@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-muted">Phone</td>
+                                    <td>:</td>
+                                    <td>+91 8301941618</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-muted">Address</td>
+                                    <td>:</td>
+                                    <td>Nelliyullapoyil(H), <br>Omassery, <br>Kozhikode</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    
+    
+                    </div>
+                    </div>
+                    
+                    
                 </div>
-                </div>
-                
-                
             </div>
+            
+            
             
         </div>
     </div>
-    <div id="Skills">
+    <div id="about-se">
+        <div class="container">
+            <div class="about-sec py-3">
+                <span class="bg-primary text-white">About Me</span><hr class="bg-primary">
+                <div class="about-content">
+                    <p>I am a Web Developer </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section id="Skills">
+    <div >
         <div class="container ">
             <p><br></p>
             <span class="bg-primary text-white">My Skills</span><hr class="bg-primary">
             <div class="card-deck">
                 <div class="card col-md-6 col-lg-4">
-                    <img src="html.png" class="skill-image m-auto" alt="">
+                    <img src="html1.png" class="skill-image m-auto" alt="">
                   <div class="card-body">
                     
                     <h5 class="card-title text-center">HTML5</h5>
@@ -109,13 +137,13 @@
                   </div>
                 </div>
                 <div class="card col-md-6 col-lg-4">
-                    <img src="CSS3.png" class="skill-image m-auto" alt="">
+                    <img src="css.png" class="skill-image m-auto" alt="">
                   <div class="card-body">
                     <h5 class="card-title text-center">CSS</h5>
                   </div>
                 </div>
                 <div class="card col-md-6 col-lg-4">
-                    <img src="javascript.jpg" class="skill-image m-auto" alt="">
+                    <img src="js.png" class="skill-image m-auto" alt="">
                   <div class="card-body">
                     <h5 class="card-title text-center">JavaScript</h5>
                   </div>
@@ -124,22 +152,22 @@
             <br>
             <div class="card-deck">
                 <div class="card col-md-6 col-lg-4">
-                    <img src="c.jpeg" class="skill-image m-auto" alt="">
+                    <img src="python.png" class="skill-image m-auto" alt="">
                   <div class="card-body">
                     
-                    <h5 class="card-title text-center">C</h5>
+                    <h5 class="card-title text-center">python</h5>
                     <p class="card-text"></p>
                     
                   </div>
                 </div>
                 <div class="card col-md-6 col-lg-4">
-                    <img src="java.jpg" class="skill-image m-auto" alt="">
+                    <img src="java1.svg" class="skill-image m-auto" alt="">
                   <div class="card-body">
                     <h5 class="card-title text-center">Java</h5>
                   </div>
                 </div>
                 <div class="card col-md-6 col-lg-4">
-                    <img src="git.jpg" class="skill-image m-auto" alt="">
+                    <img src="git.png" class="skill-image m-auto" alt="">
                   <div class="card-body">
                     <h5 class="card-title text-center">Git</h5>
                   </div>
@@ -148,12 +176,8 @@
         </div>
     </div>
     <br>
-    <div id="Experience">
-        <div class="container">
-            <span class="bg-primary text-white">Projects</span><hr class="bg-primary">
-
-        </div>
-    </div>
+    </section>
+    
     <div id="ContactMe">
         <div class="container">
             <span class="bg-primary text-white">Contact Me</span><hr class="bg-primary">
@@ -169,7 +193,7 @@
                                 <input type="text" placeholder="Enter your Email" class="form-control">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" placeholder="write somthing..."></textarea>
+                                <textarea class="form-control form-text-area" placeholder="write somthing..."></textarea>
                             </div>
                             <div class="form-group">
                                 <button class="btn btn-success text-white">Submit</button>
@@ -183,18 +207,18 @@
     </div>
     <div class="container-fluid bg-dark">
         <div class="row">
-            <div class="col">
-                <div class="container">
+            <div class="col ">
+                <div class="  container ">
                     <p class="text-white py-3 text-center">Website Designed by Hashim in 2020</p>
-                    <div class="card bg-dark">
-                        <div class="card-body text-center ">
-                            <p class="text-white">Follow me</p>
-                            <a href="#"><i class="fa fa-facebook fa-2x mx-3"></i></a>
-                            <a href="#"><i class="fa fa-instagram fa-2x mx-3"></i></a>
-                            <a href="#"><i class="fa fa-linkedin fa-2x mx-3"></i></a>
-                            <a href="#"><i class="fa fa-github fa-2x mx-3"></i></a>
-                        </div>
+                    <p class="text-white text-center">Follow me</p>
+                    <div class="footer1">
+                        <a href="https://www.facebook.com/hashim.rasheed.52831/"><i class="fa fa-facebook fa-2x mx-3 "></i></a>
+                        <a href="https://www.instagram.com/hashim__rasheed/"><i class="fa fa-instagram fa-2x mx-3 "></i></a>
+                        <a href="https://www.linkedin.com/in/hashim-rasheed-n-p-7735011a4/"><i class="fa fa-linkedin fa-2x mx-3 "></i></a>
+                        <a href="https://github.com/Hashimrasheed"><i class="fa fa-github fa-2x mx-3 "></i></a>
+                    
                     </div>
+                    
                 </div>
             </div>
 
@@ -204,5 +228,13 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+  </script>
+
 </body>
 </html>
