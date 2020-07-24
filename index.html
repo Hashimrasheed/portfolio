@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -43,8 +43,8 @@
             <div class="row">
                 
                 <div data-aos="zoom-in-up "  class="col" >
-                    <h1 class="welcome-text text-center animated bounce col" data-aos="zoom-in-up" data-aos-duration="3000">Hello</h1>
-                    <h2 class="welcome-name text-center col" data-aos="zoom-in-up" data-aos-duration="3000">I'm Hashim Rasheed</h2>
+                    <h1 class="welcome-text text-center animated bounce col" ></h1>
+                    <h2 class="welcome-name text-center col" ></h2>
                     <h3 class="content text-center " data-aos="zoom-in-up" data-aos-duration="3000">Web Developer in UL CyberPark <br>Kozhikode</h3>
                     
                 </div>
@@ -64,7 +64,7 @@
                 <div class="card-group">
                     <div class="card bg-light col-12 col-md-5 col-lg-4">
                     <div class="card-body text-center">
-                        <img src="hashim.jpg" class="profile-pic rounded" alt="">
+                        <img src="hashim.jpg" class="profile-pic rounded-circle pt-3" alt="">
                     </div>
                     </div>
                     <div class="card bg-light col-12 col-md-7 col-lg-8">
@@ -114,7 +114,8 @@
             <div class="about-sec py-3">
                 <span class="bg-primary text-white">About Me</span><hr class="bg-primary">
                 <div class="about-content">
-                    <p>I am a Web Developer </p>
+                    <p>I am a Web Developer working as a trainee in UL CyberPark as MERN Stack Developer.I completed Diploma in Electrical and Electronics Engineering from Westhill polytechnic collage.I am looking forward to achive a chareer in coding field. <br>
+                    </p>
 
                 </div>
             </div>
@@ -224,7 +225,7 @@
 
         </div>
     </div>
-
+    <script src="typed.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -236,5 +237,24 @@
     AOS.init();
   </script>
 
+<script>
+  var typed2 = new Typed('.welcome-text', {
+    strings: ['Hello'],
+    typeSpeed: 50,
+    backSpeed: 0,
+    fadeOut: true,
+    
+  });
+
+ 
+  var typed2 = new Typed('.welcome-name', {
+    strings: [' I m Hashim Rasheed'],
+    typeSpeed: 50,
+    backSpeed: 0,
+    fadeOut: true,
+    
+  });
+    
+</script>
 </body>
 </html>
